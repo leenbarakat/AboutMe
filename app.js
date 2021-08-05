@@ -82,3 +82,20 @@ switch(coding){
         console.log('your answer is right')
         break;    
 }
+
+
+let number = Number( prompt("What is my favorite number?"))
+for(i=0; i<=3; i++){
+    if (number>2) {
+        alert("Too high")
+        number = Number( prompt("What is my favorite number?"))
+      } else if (number===2) {
+      alert("correct answer")
+      break;
+      } else {
+        alert("Too low")
+        number = Number( prompt("What is my favorite number?"))
+      }
+      alert(`your score is ${score} out of 4`)
+}
+
