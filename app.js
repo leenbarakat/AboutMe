@@ -91,24 +91,6 @@ switch(coding){
         console.log('your answer is right')
         break;    
 }
-<<<<<<< HEAD
-
-
-let number = Number( prompt("What is my favorite number?"))
-for(i=0; i<=3; i++){
-    if (number>2) {
-        alert("Too high")
-        number = Number( prompt("What is my favorite number?"))
-      } else if (number===2) {
-      alert("correct answer")
-      break;
-      } else {
-        alert("Too low")
-        number = Number( prompt("What is my favorite number?"))
-      }
-      alert(`your score is ${score} out of 4`)
-}
-=======
 }f5();
 function f6(){
 let number = Number( prompt("What is my favorite number?"))
@@ -152,5 +134,4 @@ alert("the correct answer is:  "+favFruit)
 alert(`your score is ${score} out of 7`)
 }f7();
 
->>>>>>> 109c7419a5004a5fbce88ff8b6b2036f29e5dc1b
 
