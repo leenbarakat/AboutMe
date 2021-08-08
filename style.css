@@ -1,7 +1,31 @@
-body{
-    background-color: azure
-  }
-  #secondP{
-    background-color: bisque
-  }
-  
+parent {
+  background-color: #d13e51;
+  height: 1000px;
+  margin: 5%;
+  position: relative;
+}
+div {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  line-height: 100px;
+}
+#one {
+  position: sticky;
+  top: 0px;
+  background-color: #6d0214;
+  width: 200px;
+  height: 100px;
+}
+#two {
+  background-color: #534105;
+  width: 200px;
+  height: 100px;
+}
+#three {
+  background-color: #032e11;
+  width: 200px;
+  height: 100px;
+}
+p {
+  font-family: "Palette Mosaic", cursive;
+}
